@@ -34,14 +34,17 @@ arrayList.RemoveRange(0, 2); // 0 => start index, 2 => number of elements to rem
 
 
 // Display ArrayList contents
-Console.WriteLine("ArrayList contents:");
-foreach (var item in arrayList)
-{
-    Console.WriteLine(item);
-}
+//Console.WriteLine("ArrayList contents:");
+//foreach (var item in arrayList)
+//{
+//    Console.WriteLine(item);
+//}
 
 
 // Boxing and Unboxing
 int num = 123;          // Value type
 object boxedNum = num; // Boxing
 int unboxedNum = (int)boxedNum; // Unboxing
+
+
+//Console.WriteLine($"Original number: {num}, Boxed number: {boxedNum}, Unboxed number: {unboxedNum}");
